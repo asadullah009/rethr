@@ -5,10 +5,10 @@ import Image from "next/image";
 
 const HeroSection = ({ label, value }: any) => {
   return (
-    <div className="w-full h-[440px] ">
+    <div className="w-full h-[440px] 2xl:h-[770px] ">
       <div className="relative w-full h-full flex justify-center item-end">
-        <div className="absolute -z-10 w-full ">
-          <div className="hidden md:flex justify-end items-start">
+        <div className="absolute -z-10 w-screen ">
+          <div className="hidden md:flex justify-end items-start w-screen">
             <Image
               src={banner}
               alt="logo"

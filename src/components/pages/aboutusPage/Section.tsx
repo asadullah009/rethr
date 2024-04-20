@@ -6,13 +6,13 @@ const Section = () => {
   return (
     <div className="w-full h-full px-6 md:px-16">
       <div className=" flex flex-col w-[fit-content] box-sizing-border">
-      <div className="md:py-4 inline-block self-start break-words font-mono font-bold text-xl md:text-3xl leading-[1.25] text-tertiary">
+      <div className="md:py-4 inline-block self-start break-words font-mono font-bold text-lg md:text-xl leading-[1.25] text-tertiary">
           Know about Rethr and our other projects
         </div>
         <div className="py-4 flex flex-row justify-center  h-[1px] box-sizing-border">
           <div className="bg-[#E6E6E6]  h-[1px]"></div>
         </div>
-        <span className="py-4 inline-block break-words font-['Open_Sans'] font-normal text-sm md:text-lg leading-[1.5] text-tertiary">
+        <span className="py-4 inline-block break-words font-['Open_Sans'] font-normal text-sm md:text-md leading-[1.5] text-tertiary">
           Playermon was conceptualized to become the next leading social
           creative metaverse, a play-to-earn NFT game in the blockchain industry
           - a game accessible to everyone, with low entry costs, and provides
@@ -33,7 +33,7 @@ const Section = () => {
           instead of 2/3 years. Team token, play reward, staking reward are
           allocated for 10 years.
         </span>
-        <span className="py-4 inline-block break-words font-['Open_Sans'] font-normal text-sm md:text-lg leading-[1.5] text-tertiary">
+        <span className="py-4 inline-block break-words font-['Open_Sans'] font-normal text-sm md:text-md leading-[1.5] text-tertiary">
           Playermon was conceptualized to become the next leading social
           creative metaverse, a play-to-earn NFT game in the blockchain industry
           - a game accessible to everyone, with low entry costs, and provides

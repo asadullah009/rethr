@@ -96,9 +96,9 @@ const Partner = () => {
         ))}
       </div>
 
-      <div className="hidden lg:flex relative mt-48 w-full h-full  justify-center items-center">
+      <div className="hidden lg:flex relative mt-48 w-screen h-full  justify-center items-center">
         <div className="absolute -z-10 w-full">
-          <div className="hidden md:flex justify-end items-start">
+          <div className="hidden md:flex justify-end items-start ">
             <Image
               src={banner}
               alt="logo"

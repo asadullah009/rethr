@@ -4,7 +4,7 @@ const Section = () => {
   return (
     <div className="w-full h-full px-6 md:px-16">
       <div className=" flex flex-col w-[fit-content] box-sizing-border">
-        <div className="md:py-4 inline-block self-start break-words font-mono font-bold text-xl md:text-3xl leading-[1.25] text-tertiary">
+        <div className="md:py-4 inline-block self-start break-words font-mono font-bold text-lg md:text-xl leading-[1.25] text-tertiary">
           Our Mission
         </div>
         <div className=" py-4 flex flex-row justify-center h-[1px] box-sizing-border">
@@ -32,7 +32,7 @@ const Section = () => {
             create their own minigame
           </div>
         </div>
-        <div className="md:py-4 inline-block self-start break-words font-mono font-bold text-xl md:text-3xl leading-[1.25] text-tertiary">
+        <div className="md:py-4 inline-block self-start break-words font-mono font-bold text-lg md:text-xl leading-[1.25] text-tertiary">
           Our Vision
         </div>
         <div className="py-4 flex flex-row justify-center  h-[1px] box-sizing-border">
