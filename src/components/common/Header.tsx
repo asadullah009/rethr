@@ -24,7 +24,7 @@ const Header = () => {
   };
 
   return (
-    <main className="w-screen lg:max-w-[1440px] bg-transparent relative ">
+    <main className="w-screen bg-transparent relative flex justify-center">
       {/* Laptop view */}
       <nav className="hidden lg:flex px-16 justify-center z-20 items-center h-20 w-full select-none bg-transparent absolute top-0">
         <div className="flex w-full justify-between p-2">

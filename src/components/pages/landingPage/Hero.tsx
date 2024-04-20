@@ -7,7 +7,7 @@ import CurrencyLable from "../../shared/common/CurrencyLable";
 
 const Hero = () => {
   return (
-    <div className="w-full h-full md:h-[610px] ">
+    <div className=" w-screen h-full md:h-[610px] ">
       <div className="relative w-full h-full flex justify-center items-center">
         <div className="absolute -z-10 w-full ">
           <div className="hidden md:flex justify-end items-start">
@@ -26,7 +26,7 @@ const Hero = () => {
             <Button text="Learn more" href="/" variant="simple" />
           </div>
 
-          <div className="flex justify-between  items-center flex-col md:flex-row gap-5 md:px-12 px-4 md:py-16 py-6 rounded bg-[linear-gradient(180deg,#424242_0%,#000000_98.3%)]">
+          <div className="flex justify-between max-w-[1298px] items-center flex-col md:flex-row gap-5 md:px-12 px-4 md:py-16 py-6 rounded bg-[linear-gradient(180deg,#424242_0%,#000000_98.3%)]">
             <h1 className="text-white font-mono text-lg font-bold">CryptoCurrency:</h1>
             <div className="flex justify-center gap-5 md:gap-10 items-center flex-col md:flex-row">
               <CurrencyLable

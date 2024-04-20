@@ -12,7 +12,8 @@ import Heading from "../components/shared/common/Heading";
 
 export default function App() {
   return (
-    <main className="flex justify-start items-center gap-8  flex-col lg:container mx-auto py-6">
+    <main className="flex justify-start items-center gap-8 flex-col xl:container mx-auto py-6">
+
        <Hero />
       <TokenRate />
       <Heading label="Popular Crypto Currencies" />
